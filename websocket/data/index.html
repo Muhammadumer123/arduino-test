@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ESP IOT DASHBOARD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="topnav">
+    <h1>SENSOR READINGS (WEBSOCKET)</h1>
+  </div>
+  <div class="content">
+    <div class="card-grid">
+      <div class="card">
+        <p class="card-title"><i class="fas fa-thermometer-threequarters" style="color:#059e8a;"></i> WeightOne</p>
+        <p class="reading"><span id="firstweight"></span> &deg;C</p>
+      </div>
+      <div class="card">
+        <p class="card-title"> WeightTwo</p>
+        <p class="reading"><span id="secondweight"></span> &percnt;</p>
+      </div>
+      <div class="card">
+        <p class="card-title"> WeightThree</p>
+        <p class="reading"><span id="thirdweight"></span> hpa</p>
+      </div>
+    </div>
+    <!-- Add a button -->
+    <div class="button-container">
+      <button id="sendSignalButton">Send Signal</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
