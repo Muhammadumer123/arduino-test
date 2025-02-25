@@ -5,7 +5,7 @@ New Changing done
 more changes
 antoher change
 dfdf
-
+okkk
 git init
 git [clone url]
 cd [foldername]
